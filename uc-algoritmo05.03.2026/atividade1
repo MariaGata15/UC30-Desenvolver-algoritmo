@@ -1,0 +1,10 @@
+números = [80, 20, 30, 20, 40, 90, 50]
+print(números)
+
+print("Quantos elementos existem na lista de números? : ", len(números))
+
+print("Qntds vezes o  número 20 aparece na lista de números? : ", números.count(20))
+
+print("30 está na lista? ", 30 in números)
+print("100 está na lista? ", 100 in números)
+
